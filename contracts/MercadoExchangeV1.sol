@@ -111,6 +111,7 @@ contract MercadoExchange is IMercadoExchange, ReentrancyGuard, Ownable {
             )
         );
 
+
         currencyManager = ICurrencyManager(_currencyManager);
         executionManager = IExecutionManager(_executionManager);
         royaltyFeeManager = IRoyaltyFeeManager(_royaltyFeeManager);
